@@ -1,0 +1,177 @@
+:root {
+  --color1: #346575;
+  --color2: #ebf2fc;
+  --color3: #b8e0f0ea;
+  --color4: #849ed1;
+}
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color2);
+  color: var(--color1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em 1em 0.7em 0em;
+  background-color: var(--color1);
+}
+#logo {
+  padding: 0.2em 0.3em 0.2em 1em;
+  background-size: 10px;
+  background-color: var(--color3);
+  left: -12rem;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 0.2em 0.2em 0.3em 0em rgba(5, 5, 5, 0.959);
+}
+.header-links {
+  padding-right: 0.9em;
+  font-size: 1.2em;
+  background-color: var(--color1);
+  color: var(--color3);
+  font-weight: bolder;
+}
+
+#main-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 21em;
+  background-image: url(https://s3.medialoot.com/blog-images/abstract-wire-mesh-wave/17.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#main-img-text {
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  margin: 0em 1.7em 1em 0em;
+  background-color: var(--color3);
+  border-radius: 15px;
+}
+.margin {
+  margin: 2em 2em 0em 7em;
+}
+.aboutme {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  padding-right: 0.5em;
+  flex: 0 0 10%;
+  margin-right: 30px;
+  border-right-style: solid;
+}
+h2 {
+  margin-inline-start: -50px;
+}
+.column {
+  width: 90%;
+  margin-right: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+}
+p {
+  padding-bottom: 1em;
+}
+.work {
+  padding-right: 0.5em;
+  flex: 0 0 10%;
+  margin-right: 30px;
+  border-right-style: solid;
+}
+.bigbox {
+  width: 100%;
+  min-width: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 15em;
+  background-image: url(http://placekitten.com/200/300);
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+}
+.littlebox1 {
+  width: 47%;
+  height: 10em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(http://placekitten.com/200/300);
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+}
+.littlebox2 {
+  width: 47%;
+  height: 10em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(http://placekitten.com/200/300);
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+}
+.littlebox3 {
+  width: 47%;
+  height: 10em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(http://placekitten.com/200/300);
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+}
+
+.littlebox4 {
+  width: 47%;
+  height: 10em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(http://placekitten.com/200/300);
+  background-size: cover;
+  background-position: center;
+  border-style: solid;
+}
+.work-img-text {
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  margin: 0em 1.5em 0.4em 0em;
+  background-color: var(--color3);
+}
+.contactmeul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: underline;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#image-grid {
+  height: 39em;
+  width: 90%;
+  margin-right: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+}
+h4 {
+  font-size: 16px;
+}
+#margin-inline {
+  margin-inline-start: -70px;
+}
+#display-flex {
+  display: flex;
+}
