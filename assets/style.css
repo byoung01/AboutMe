@@ -1,5 +1,5 @@
 :root {
-  --color1: #346575;
+  --color1: white;
   --color2: #ebf2fc;
   --color3: #b8e0f0ea;
   --color4: #849ed1;
@@ -8,80 +8,87 @@
   box-sizing: 0;
   margin: 0;
   padding: 0;
-  background-color: var(--color2);
   color: var(--color1);
   font-family: Arial, Helvetica, sans-serif;
 }
 #header {
-  align-items: center;
+  align-items: baseline;
   display: flex;
   justify-content: space-between;
-  padding: 0.7em 1em 0.7em 0em;
-  background-color: var(--color1);
+  flex-wrap: wrap;
+  /* media query
+  justify-content: center; */
 }
-#logo {
-  padding: 0.2em 0.3em 0.2em 1em;
-  background-size: 10px;
-  background-color: var(--color3);
-  left: -12rem;
-  border-radius: 0px 15px 15px 0px;
-  box-shadow: 0.2em 0.2em 0.3em 0em rgba(5, 5, 5, 0.959);
-}
-.header-links {
-  padding-right: 0.9em;
-  font-size: 1.2em;
-  background-color: var(--color1);
-  color: var(--color3);
-  font-weight: bolder;
-}
-
-#main-img {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 21em;
+.main-img {
   background-image: url(https://s3.medialoot.com/blog-images/abstract-wire-mesh-wave/17.jpg);
   background-size: cover;
   background-position: center;
 }
-#main-img-text {
-  padding: 0.2em 0.2em 0.2em 0.2em;
-  margin: 0em 1.7em 1em 0em;
-  background-color: var(--color3);
-  border-radius: 15px;
+#logo {
+  padding-top: 1em;
+  padding-left: 2em;
+  color: white;
 }
-.margin {
-  margin: 2em 2em 0em 7em;
-}
-.aboutme {
+#links {
+  padding-left: 2em;
+  padding-right: 2em;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.header-links {
+  text-decoration: none;
+  padding-top: 2em;
+  padding-right: 0.9em;
+  font-size: 1.2em;
+  color: white;
 }
 .title {
-  padding-right: 0.5em;
-  flex: 0 0 10%;
-  margin-right: 30px;
-  border-right-style: solid;
+  padding-bottom: 0.4em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
 }
-h2 {
-  margin-inline-start: -50px;
+.aboutme {
+  margin-left: 4em;
 }
+
 .column {
-  width: 90%;
-  margin-right: 2em;
+  padding-left: 0.7em;
+  border-top-style: solid;
+  width: 65%;
+  padding-top: 1em;
+}
+#placeholder {
+  padding: 8em;
+}
+#padding {
+  padding-bottom: 2em;
+}
+#align-right {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 4em;
+  text-align: right;
+}
+
+#image-grid {
+  padding-top: 1em;
+  border-top-style: solid;
+  padding-right: 0.7em;
+  height: 39em;
+  width: 75%;
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
   justify-content: space-between;
 }
 p {
   padding-bottom: 1em;
 }
 .work {
+  padding-bottom: 0.4em;
   padding-right: 0.5em;
-  flex: 0 0 10%;
-  margin-right: 30px;
-  border-right-style: solid;
 }
 .bigbox {
   width: 100%;
@@ -95,29 +102,7 @@ p {
   background-position: center;
   border-style: solid;
 }
-.littlebox1 {
-  width: 47%;
-  height: 10em;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  background-image: url(http://placekitten.com/200/300);
-  background-size: cover;
-  background-position: center;
-  border-style: solid;
-}
-.littlebox2 {
-  width: 47%;
-  height: 10em;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  background-image: url(http://placekitten.com/200/300);
-  background-size: cover;
-  background-position: center;
-  border-style: solid;
-}
-.littlebox3 {
+.littlebox {
   width: 47%;
   height: 10em;
   display: flex;
@@ -129,46 +114,35 @@ p {
   border-style: solid;
 }
 
-.littlebox4 {
-  width: 47%;
-  height: 10em;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  background-image: url(http://placekitten.com/200/300);
-  background-size: cover;
-  background-position: center;
-  border-style: solid;
+.work-text {
+  font-size: 1.5em;
+  margin: 0em 0em 1.5em 2em;
 }
 .work-img-text {
-  padding: 0.2em 0.2em 0.2em 0.2em;
-  margin: 0em 1.5em 0.4em 0em;
-  background-color: var(--color3);
+  margin: 0em 0em 1em 2em;
+}
+#contact-me {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1.5em;
+  margin-top: 4em;
 }
 .contactmeul {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   list-style-type: none;
-  text-decoration: underline;
 }
-div {
-  display: flex;
-  flex-wrap: wrap;
+.contact-title {
+  padding-left: 1.5em;
+  padding-right: 2em;
 }
-#image-grid {
-  height: 39em;
-  width: 90%;
-  margin-right: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: space-between;
+#contact-me-text {
+  text-decoration: none;
+  padding-right: 2em;
 }
-h4 {
-  font-size: 16px;
-}
+
 #margin-inline {
   margin-inline-start: -70px;
 }
