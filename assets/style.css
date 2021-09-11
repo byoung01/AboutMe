@@ -16,8 +16,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* media query
-  justify-content: center; */
 }
 .main-img {
   background-image: url(https://s3.medialoot.com/blog-images/abstract-wire-mesh-wave/17.jpg);
@@ -139,6 +137,7 @@ p {
   padding-right: 2em;
 }
 #contact-me-text {
+  font-size: 1.2em;
   text-decoration: none;
   padding-right: 2em;
 }
