@@ -90,7 +90,6 @@ p {
 }
 .bigbox {
   width: 100%;
-  min-width: none;
   display: flex;
   justify-content: flex-end;
   height: 15em;
