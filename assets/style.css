@@ -132,7 +132,7 @@ p {
   justify-content: flex-end;
 }
 .boxbground1 {
-  background-image: url(./assets/images/2Chit2Chat.png);
+  background-image: url(./images/2Chit2Chat.png);
   width: 900px;
   height: 520px;
   filter: opacity(95%);
