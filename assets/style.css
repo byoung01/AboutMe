@@ -91,18 +91,18 @@ p {
   border-bottom-style: solid;
   margin: 7em 3em 2em 12em;
 }
-.bigbox {
+/* .bigbox {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   height: 15em;
-  background-image: url(/passwordgen1.jpg);
+  background-image: url(./assets/images/passwordgen1.jpg);
   background-size: cover;
   background-position: center;
   border-style: solid;
   flex-direction: column;
   align-items: flex-start;
-}
+} */
 .bigDiv {
   display: flex;
   flex-direction: column;
@@ -132,19 +132,19 @@ p {
   justify-content: flex-end;
 }
 .boxbground1 {
-  background-image: url(/assets/images/2Chit2Chat.png);
+  background-image: url(./assets/images/2Chit2Chat.png);
   width: 900px;
   height: 520px;
   filter: opacity(95%);
 }
 .boxbground2 {
-  background-image: url(/assets/images/Soundboard.png);
+  background-image: url(./assets/images/Soundboard.png);
   width: 500px;
   height: 400px;
   filter: opacity(95%);
 }
 .boxbground3 {
-  background-image: url(/assets/images/Budget\ Tracker.png);
+  background-image: url(./assets/images/Budget\ Tracker.png);
   width: 500px;
   height: 400px;
   filter: opacity(95%);
