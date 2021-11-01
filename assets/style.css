@@ -138,13 +138,13 @@ p {
   filter: opacity(95%);
 }
 .boxbground2 {
-  background-image: url(./assets/images/Soundboard.png);
+  background-image: url(./images/Soundboard.png);
   width: 500px;
   height: 400px;
   filter: opacity(95%);
 }
 .boxbground3 {
-  background-image: url(./assets/images/Budget\ Tracker.png);
+  background-image: url(./images/Budget\ Tracker.png);
   width: 500px;
   height: 400px;
   filter: opacity(95%);
