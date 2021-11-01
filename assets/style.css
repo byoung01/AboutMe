@@ -132,19 +132,19 @@ p {
   justify-content: flex-end;
 }
 .boxbground1 {
-  background-image: url(/images/2Chit2Chat.png);
+  background-image: url(/assets/images/2Chit2Chat.png);
   width: 900px;
   height: 520px;
   filter: opacity(95%);
 }
 .boxbground2 {
-  background-image: url(/images/Soundboard.png);
+  background-image: url(/assets/images/Soundboard.png);
   width: 500px;
   height: 400px;
   filter: opacity(95%);
 }
 .boxbground3 {
-  background-image: url(/images/Budget\ Tracker.png);
+  background-image: url(/assets/images/Budget\ Tracker.png);
   width: 500px;
   height: 400px;
   filter: opacity(95%);
